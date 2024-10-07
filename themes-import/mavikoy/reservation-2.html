@@ -1,0 +1,577 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Mobile Web-app fullscreen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Meta tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <!--Title-->
+    <title>Rezervasyon | Mavikoy Beach Resort</title>
+
+    <!--CSS styles-->
+    <link rel="stylesheet" media="all" href="css/bootstrap.css" />
+    <link rel="stylesheet" media="all" href="css/animate.css" />
+    <link rel="stylesheet" media="all" href="css/font-awesome.css" />
+    <link rel="stylesheet" media="all" href="css/linear-icons.css" />
+    <link rel="stylesheet" media="all" href="css/hotel-icons.css" />
+    <link rel="stylesheet" media="all" href="css/magnific-popup.css" />
+    <link rel="stylesheet" media="all" href="css/owl.carousel.css" />
+    <link rel="stylesheet" media="all" href="css/datepicker.css" />
+    <link rel="stylesheet" media="all" href="css/theme.css" />
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="page-loader"></div>
+
+    <div class="wrapper">
+
+        <header>
+
+            <!-- ======================== Navigation ======================== -->
+
+            <div class="container">
+
+                <!-- === navigation-top === -->
+
+                <nav class="navigation-top clearfix">
+
+                    <!-- navigation-top-left -->
+
+                    <div class="navigation-top-left">
+                        <a class="box" target="_blank" href="https://www.facebook.com/mavikoybeachresort">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="box" target="_blank" href="https://www.instagram.com/avsa_mavikoy_resort/">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+
+                    <!-- navigation-top-right -->
+
+                    <div class="navigation-top-right">
+                        <a class="box" id="reservation-tag"
+                            href="https://api.whatsapp.com/send?phone=+905411035340&text=Mavikoy%20Beach%20Resort%20Ho%C5%9Fgeldiniz%20L%C3%BCtfen%20Bu%20K%C4%B1sm%C4%B1%20Silmeden%20Mesaj%C4%B1n%C4%B1z%C4%B1%20Yaz%C4%B1n%C4%B1z:">
+                            <i class="icon icon-tag"></i>
+                            Rezervasyon
+                        </a>
+                        <a class="box" href="tel:+902668961100">
+                            <i class="icon icon-phone-handset"></i>
+                            +90 266 896 11 00
+                        </a>
+                        <a class="box" href="tel:+905411035340">
+                            <i class="icon icon-phone-handset"></i>
+                            +90 541 103 53 40
+                        </a>
+                    </div>
+                </nav>
+
+                <!-- === navigation-main === -->
+
+                <nav class="navigation-main clearfix">
+
+                    <!-- logo -->
+
+                    <div class="logo animated fadeIn">
+                        <a href="index.html">
+                            <img class="logo-desktop" src="assets/images/mavikoybeachresort.png" alt="Alternate Text" /> 
+                            <img class="logo-mobile" src="assets/images/mavikoybeachresort.png" alt="Alternate Text" />
+                        </a>
+                    </div>
+
+                    <!-- toggle-menu -->
+
+                    <div class="toggle-menu"><i class="icon icon-menu"></i></div>
+
+                    <!-- navigation-block -->
+
+                    <div class="navigation-block clearfix">
+
+                        <!-- navigation-left -->
+
+                        <ul class="navigation-left">
+                            <li>
+                                <a href="index.html">Anasayfa</a>
+                            </li>
+                            <li>
+                                <a href="about.html">Hakkımızda</a>
+                                
+                            </li>
+                            <li>
+                                <a href="rooms-category.html">Odalar <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                <ul>
+                                    <li><a href="land-view-room.html">Kara Manzaralı Oda</a>
+                                    <li><a href="pool-view-room.html">Havuz Manzaralı Oda</a>
+                                    <li><a href="suit-room.html">Suit Oda</a></li>
+                                    <li><a href="one-plus-one-room.html">1+1 Oda</a></li>
+                                    <li><a href="twin-room.html">2 Ayrı Yataklı Oda</a></li>
+                                    <li><a href="king-room.html">King Oda</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!-- navigation-right -->
+
+                        <ul class="navigation-right">
+                            <li>
+                                <a href="facility.html">Aktiviteler</a>
+                            </li>
+                            <!-- <li>
+                                <a href="#">Galeri</a>
+                            </li> -->
+                            <li>
+                                <a href="contact.html">İletişim</a>
+                            </li>
+                        </ul>
+
+                    </div> <!--/navigation-block-->
+
+                </nav>
+            </div> <!--/container-->
+
+        </header>
+
+        <!-- ========================  Checkout ======================== -->
+
+        <section class="page">
+
+            <!-- ===  Page header === -->
+
+            <div class="page-header" style="background-image:url(assets/images/header-1.jpg)">
+                <div class="container">
+                    <h2 class="title">Rezervasyonunuzu Onaylayın</h2>
+                    <p>Misafir Bilgisi</p>
+                </div>
+            </div>
+
+            <!-- ===  Step wrapper === -->
+
+            <div class="step-wrapper">
+                <div class="container">
+                    <div class="stepper">
+                        <ul class="row">
+                            <li class="col-md-4 active">
+                                <a href="reservation.html"><span data-text="Oda &amp; Fiyat"></span></a>
+                            </li>
+                            <li class="col-md-4 active">
+                                <a href="reservation-2.html"><span data-text="Rezervasyon"></span></a>
+                            </li>
+                            <li class="col-md-4">
+                                <a href="reservation-3.html"><span data-text="Kontrol et"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===  Checkout === -->
+
+            <div class="checkout">
+
+                <div class="container">
+
+                    <div class="clearfix">
+
+                        <!-- ========================  Note block ======================== -->
+
+                        <div class="cart-wrapper">
+
+                            <div class="note-block">
+
+                                <div class="row">
+
+                                    <!-- === left content === -->
+
+                                    <div class="col-md-6">
+
+                                        <!-- === login-wrapper === -->
+
+                                        <div class="login-wrapper">
+
+                                            <div class="white-block">
+
+                                                <!--signin-->
+
+                                                <div class="login-block login-block-signin">
+
+                                                    <div class="h4">Giriş Yap<a href="javascript:void(0);" class="btn btn-main btn-xs btn-register pull-right">hesap oluştur</a></div>
+
+                                                    <hr />
+
+                                                    <div class="row">
+
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" value="" class="form-control" placeholder="Kullanıcı Adı">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="password" value="" class="form-control" placeholder="Şifre">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-xs-6">
+                                                            <span class="checkbox">
+                                                                <input type="checkbox" id="checkBoxId3">
+                                                                <label for="checkBoxId3">Beni Hatırla</label>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="col-xs-6 text-right">
+                                                            <a href="#" class="btn btn-main">Giriş Yap</a>
+                                                        </div>
+                                                    </div>
+                                                </div> <!--/signin-->
+                                                <!--signup-->
+
+                                                <div class="login-block login-block-signup">
+
+                                                    <div class="h4">Kayıt Ol <a href="javascript:void(0);" class="btn btn-main btn-xs btn-login pull-right">Giriş Yap</a></div>
+
+                                                    <hr />
+
+                                                    <div class="row">
+
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="text" value="" class="form-control" placeholder="İsim: *">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="text" value="" class="form-control" placeholder="Soyisim: *">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12">
+
+                                                            <div class="form-group">
+                                                                <input type="text" value="" class="form-control" placeholder="Şirket Adı:">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4">
+                                                            <div class="form-group">
+                                                                <input type="text" value="" class="form-control" placeholder="Posta Kodu: *">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-8">
+                                                            <div class="form-group">
+                                                                <input type="text" value="" class="form-control" placeholder="Şehir: *">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="text" value="" class="form-control" placeholder="E-posta: *">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="text" value="" class="form-control" placeholder="Telefon: *">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12">
+                                                            <hr />
+                                                            <span class="checkbox">
+                                                                <input type="checkbox" id="checkBoxId1">
+                                                                <label for="checkBoxId1"><a href="#">Şartları</a> okudum ve kabul ettim, ayrıca <a href="#">iş koşullarımızı</a> da okudum ve anladım. </label>
+                                                            </span>
+                                                            <span class="checkbox">
+                                                                <input type="checkbox" id="checkBoxId2">
+                                                                <label for="checkBoxId2">Heyecan verici haber bültenlerine ve harika ipuçlarına abone olun.</label>
+                                                            </span>
+                                                            <hr />
+                                                        </div>
+
+                                                        <div class="col-md-12">
+                                                            <a href="#" class="btn btn-main btn-block">Hesap Oluştur</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div> <!--/signup-->
+                                            </div>
+                                        </div> <!--/login-wrapper-->
+                                    </div> <!--/col-md-6-->
+                                    <!-- === right content === -->
+
+                                    <div class="col-md-6">
+
+                                        <div class="white-block">
+
+                                            <div class="h4">Ödemeyi seçin</div>
+
+                                            <hr />
+
+                                            <span class="checkbox">
+                                                <input type="radio" id="paymentCart" name="paymentOption">
+                                                <label for="paymentCart">
+                                                    <strong>Kredi kartı ile ödeme</strong> <br />
+                                                    <small>(MasterCard, Maestro, Visa, Visa Electron, JCB ve American Express)</small>
+                                                </label>
+                                            </span>
+
+                                            <span class="checkbox">
+                                                <input type="radio" id="paymentPayPal" name="paymentOption">
+                                                <label for="paymentPayPal">
+                                                    <strong>PayPal</strong> <br />
+                                                    <small>Parmak uçlarınızla satın alın. Bir dahaki sefere mobil uygulamadan ödeme yapacağınızda bizi arayın ve binlerce mobil web sitesinde daha hızlı ödeme yapın.</small>
+                                                </label>
+                                            </span>
+
+                                            <div class="payment payment-paypal">
+                                                <p><strong>Not:</strong></p>
+                                                <p>Ödeme onayının <a href="#">çevrimiçi hesabınız</a>a yansıması için lütfen üç iş günü bekleyin. Ödemeniz onaylandıktan sonra, hesabınızdan veya e-postanızdan görüntüleyebileceğiniz/yazdırabileceğiniz e-faturanızı oluşturacağız.</p>
+                                            </div>
+
+                                            <div class="payment payment-cart">
+
+                                                <div class="row">
+                                                    <div class="col-xs-12">
+                                                        <div class="payment-header">
+                                                            <div>
+                                                                <strong>Ödeme detayları</strong>
+                                                            </div>
+                                                            <div>
+                                                                <i class="fa fa-cc-visa"></i>
+                                                                <i class="fa fa-cc-mastercard"></i>
+                                                                <i class="fa fa-cc-discover"></i>
+                                                                <i class="fa fa-cc-amex"></i>
+                                                                <i class="fa fa-cc-diners-club"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12">
+                                                        <div class="form-group">
+                                                            <input class="form-control" type="tel" value="" name="cardNumber" placeholder="Kart Numarası" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-8">
+                                                        <div class="form-group">
+                                                            <input class="form-control" type="tel" value="" name="cardExpiry" placeholder="AA / YY" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-4">
+                                                        <div class="form-group">
+                                                            <input class="form-control" type="tel" value="" name="cardCVC" placeholder="CVC" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12">
+                                                        <div class="form-group">
+                                                            <input class="btn btn-main btn-block" type="submit" value="Onayla" name="cardNumber" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ========================  Cart wrapper ======================== -->
+
+                        <div class="cart-wrapper">
+
+                            <!--cart header -->
+
+                            <div class="cart-block cart-block-header clearfix">
+                                <div>
+                                    <span>Oda Tipi</span>
+                                </div>
+                                <div class="text-right">
+                                    <span>Ücret</span>
+                                </div>
+                            </div>
+
+                            <!--cart items-->
+
+                            <div class="clearfix">
+
+                                <div class="cart-block cart-block-item clearfix">
+                                    <div class="image">
+                                        <a href="suit-room.html"><img src="assets/images/room-suit.jpg" alt="" /></a>
+                                    </div>
+                                    <div class="title">
+                                        <div class="h2"><a href="suit-room.html">Suit Oda</a></div>
+                                        <p>
+                                            <strong>Giriş Tarihi</strong> <br /> <a href="#">(14 Şubat 2024)</a>
+                                        </p>
+                                        <p>
+                                            <strong>Misafir</strong> <br />  2 Yetişkin, 1 Çocuk
+                                        </p>
+                                        <p>
+                                            <strong>Gece</strong> <br /> 7
+                                        </p>
+                                    </div>
+                                    <div class="price">
+                                        <span class="final h3">00.00&#8378;</span>
+                                        <span class="discount">00.00&#8378;</span>
+                                    </div>
+                                    <!--delete-this-item-->
+                                    <span class="icon icon-cross icon-delete"></span>
+                                </div>
+
+                            </div>
+
+                            <!--cart prices -->
+
+                            <div class="clearfix">
+                                <div class="cart-block cart-block-footer clearfix">
+                                    <div>
+                                        <strong>İndirim 15%</strong>
+                                    </div>
+                                    <div>
+                                        <span>00.00&#8378;</span>
+                                    </div>
+                                </div>
+
+                                <div class="cart-block cart-block-footer clearfix">
+                                    <div>
+                                        <strong>Vergi</strong>
+                                    </div>
+                                    <div>
+                                        <span>00.00&#8378;</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--cart final price -->
+
+                            <div class="clearfix">
+                                <div class="cart-block cart-block-footer cart-block-footer-price clearfix">
+                                    <div>
+                                        Promosyon kodu dahil edildi!
+                                    </div>
+                                    <div>
+                                        <div class="h2 title">00.00&#8378;</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- ========================  Cart navigation ======================== -->
+
+                            <div class="clearfix">
+                                <div class="cart-block cart-block-footer cart-block-footer-price clearfix">
+                                    <div>
+                                        <a href="reservation-1.html" class="btn btn-clean-dark">Geri</a>
+                                    </div>
+                                    <div>
+                                        <a href="reservation-3.html" class="btn btn-main">Kontrol Et <span class="icon icon-chevron-right"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div> <!--/container-->
+            </div> <!--/checkout-->
+
+        </section>
+
+
+
+        <!-- ========================  Subscribe ======================== -->
+
+        <section class="subscribe">
+            <div class="container">
+                <div class="box">
+                    <h2 class="title">Abone Ol</h2>
+                    <div class="text">
+                        <p>fırsatlardan ve yenilikler haberdar olun</p>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" value="" placeholder="E Posta Adresi" class="form-control" />
+                        <button class="btn btn-sm btn-main">Gönder</button>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <!-- ================== Footer  ================== -->
+
+        <footer>
+            <div class="container">
+
+                <!--footer links-->
+                <div class="footer-links">
+                    <div class="row">
+                        <div class="col-sm-6 footer-left">
+                            <a href="#">Site Haritası</a> &nbsp; | &nbsp; <a href="#">Gizlilik Politikası</a> | &nbsp; <a href="#">Ziyaretçi Defteri</a>
+                        </div>
+                        <div class="col-sm-6 footer-right">
+                            <a href="#">Galeri</a> &nbsp; | &nbsp; <a href="#">Rezervasyonlar</a> | &nbsp; <a href="#">Yardım Merkezi</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--footer social-->
+
+                <div class="footer-social">
+                    <div class="row">
+                        <div class="col-sm-12 text-center hidden">
+                            <a href="" class="footer-logo"><img src="assets/images/logo.png" alt="Alternate Text" /></a>
+                        </div>
+                        <div class="col-sm-12 icons">
+                            <ul>
+                                <li><a target="_blank" href="https://www.facebook.com/mavikoybeachresort"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/avsa_mavikoy_resort/"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 copyright">
+                            <small>Copyright &copy; <span id="year"></span> &nbsp; | &nbsp; <a href="https://www.narval.com.tr/" target="_blank">NARVAL</a></small>
+                        </div>
+                        <div class="col-sm-12 text-center">
+                            <img src="assets/images/mavikoybeachresort.png" alt="Mavikoy Beach Resort" width="100px"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div> <!--/wrapper-->
+
+    <!--JS files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.bootstrap.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.owl.carousel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

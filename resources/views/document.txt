@@ -1,0 +1,34 @@
+Admin
+
+themes -> ThemeOne  -> Layout
+                    ->inc
+                        -> Header
+                        -> Footer
+                    -> Slider
+                        -> activitiesSlider
+                    -> PageContent
+                    -> Rooms
+                        -> RoomsList
+                            -> HomeList
+                                -> carousalList
+                                -> selectList
+                            -> index-blade
+                        -> RoomsDetail
+                        -> roomGallery: Oda detay sayfalarında kullanılan bilgi içeriklerinin hepsi.
+                    -> Blog
+                        -> BlogList
+                        -> BlogDetail
+                        -> BlogCategoryList
+                    -> Contact
+                    -> Sertifikalar
+                    -> Rezervesyon
+                        -> HomeRezerv
+                        -> RoomsListRezerv
+                    -> MisafirYorumları
+                    -> hotelInfo
+                    -> activites
+                        -> gallery
+                        -> başlıklar
+                        -> menuler
+                        -> şefler
+                        -> Etkinlikler
